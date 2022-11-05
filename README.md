@@ -18,8 +18,8 @@ The Tests results provided here, are done with testing 8000 requests / second on
 # installation instructions
 Aside from pyahocorasick, there's no additional libraries to install, still if you want to run it in a venv, do:<br />
 
-  $ python3 -m venv env<br /><br />
-  $ source env/bin/activate<br /><br />
+  $ python3 -m venv env<br />
+  $ source env/bin/activate<br />
   $ pip3 install pyahocorasick<br />
 
 # Execution
