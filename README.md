@@ -9,9 +9,14 @@ for that we used subprocess in order to execute a linux command => Grep.
 for that we used pyahocorasick as an implimentation of the Aho–Corasick algorithm.<br />
 <br />
 
+## Server Benchmarks
 ![execution speeds graph](https://i.ibb.co/r0SqnTQ/benchmarks.jpg=400x300)
+<br />
+
+The Tests results provided here, are done with testing 8000 requests / second on different file sizes.
 
 # installation instructions
+Aside from pyahocorasick, there's no additional libraries to install, still if you want to run it in a venv, do:<br />
 
   $ python3 -m venv env<br />
   $ source env/bin/activate<br />
@@ -19,4 +24,5 @@ for that we used pyahocorasick as an implimentation of the Aho–Corasick algori
 
 # Execution
 
-  $ python3 server.py
+  $ python3 server.py<br />
+you will be needing a client script,which connects and provide the string to search for to the server
