@@ -24,6 +24,12 @@ Aside from pyahocorasick, there's no additional libraries to install, still if y
 
 # Execution
 Make sure to modify the config.py variables, if all is set, Do: <br />
+<br />
   $ python3 server.py<br />
 <br />
 you will be needing a client script,which connects and provide the string to search for to the server
+<br />
+# Additional files
+* test_sample: unit tests
+* stress_test: script used to stress test
+* client: script to communicate with server
