@@ -1,8 +1,8 @@
 # installation instructions
 
-  $ python3 -m venv env\n
-  $ source env/bin/activate\n
-  $ pip3 install pyahocorasick\n
+  $ python3 -m venv env<br />
+  $ source env/bin/activate<br />
+  $ pip3 install pyahocorasick<br />
 
 # Execution
 
