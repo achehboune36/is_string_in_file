@@ -4,13 +4,10 @@ This project is an introductory, the goal is to create a server, which takes a p
 <br />
 In order to provide high search speeds, we implemented some methods depending on a variable called REREAD_ON_QUERY.<br />
 ### When it is True, we need to reread the file on every query we process<br />
-<pre>
-      for that we used subprocess in order to execute a linux command => Grep.
-</pre><br />
+      8195 for that we used subprocess in order to execute a linux command => Grep.
 ### otherwise, We only read the file once, we chose it to be at server's start<br />
-<pre>
-      for that we used pyahocorasick as an implimentation of the Aho–Corasick algorithm.<br />
-</pre><br />
+      8195 for that we used pyahocorasick as an implimentation of the Aho–Corasick algorithm.<br />
+<br />
 
 
 # installation instructions
