@@ -113,7 +113,7 @@ def exec_time(func):
     return wrapper
 
 @exec_time
-def search_file(string, automaton):
+def search_file(string, automaton, file_path = LINUX_PATH):
     """
         Searches for string in file
 
@@ -124,7 +124,7 @@ def search_file(string, automaton):
         Returns:
                 :returns: string's existance in file
     """
-    args = f"grep -rnw '{LINUX_PATH}' -e '{string}'"
+    args = f"grep -rnw '{file_path}' -e '{string}'"
     try:
         with open(os.devnull, 'wb') as devnull:
             if subprocess.check_call(args, stdout=devnull, stderr=subprocess.STDOUT, shell=True) == 0:
@@ -149,7 +149,7 @@ def search_list(string, automaton):
         return "STRING EXISTS\n"
     return "STRING NOT FOUND\n"
 
-def file_to_list():
+def file_to_list(file_path = LINUX_PATH):
     """
         Reads file lines
 
@@ -157,7 +157,7 @@ def file_to_list():
                 :returns: list of file lines
     """
     try:
-        with open(LINUX_PATH, "r") as text_file:
+        with open(file_path, "r") as text_file:
             return text_file.read().splitlines()
     except Exception as e:
         print(f'[ERROR] Error while reading file! {e}')
