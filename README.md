@@ -9,7 +9,7 @@ for that we used subprocess in order to execute a linux command => Grep.
 for that we used pyahocorasick as an implimentation of the Aho–Corasick algorithm.<br />
 <br />
 
-![execution speeds graph](https://i.ibb.co/r0SqnTQ/benchmarks.jpg =730x547)
+![execution speeds graph](https://i.ibb.co/r0SqnTQ/benchmarks.jpg=730x547)
 
 # installation instructions
 
