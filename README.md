@@ -23,6 +23,7 @@ Aside from pyahocorasick, there's no additional libraries to install, still if y
   $ pip3 install pyahocorasick<br />
 
 # Execution
-
+Make sure to modify the config.py variables, if all is set, Do: <br />
   $ python3 server.py<br />
+<br />
 you will be needing a client script,which connects and provide the string to search for to the server
