@@ -1,11 +1,9 @@
-# Introductory test
+# installation instructions
 
-  # installation instructions
+  $ python3 -m venv env
+  $ source env/bin/activate
+  $ pip3 install pyahocorasick
 
-    $ python3 -m venv env
-    $ source env/bin/activate
-    $ pip3 install pyahocorasick
+# Execution
 
-  # Execution
-
-    $ python3 server.py
+  $ python3 server.py
